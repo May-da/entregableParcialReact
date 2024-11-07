@@ -1,8 +1,12 @@
 
-const Card = () => {
+const Card = ({libro, autor}) => {
+  //console.log(props)
   return (
     <div>
-      Hola, soy una tarjeta
+      <h3>Mi libro favorito es: {libro} </h3>
+      <h3>
+        Su autor es:  {autor}
+      </h3>
     </div>
   )
 }
